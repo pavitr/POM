@@ -24,6 +24,7 @@ public class Example {
 	    String ActualResult=driver.getTitle();
 	    Assert.assertEquals(ActualResult, ExpectedResult);
 	    driver.close();
+	    System.out.println("hey i am ");
 	}
 	
 
